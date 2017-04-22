@@ -19,19 +19,3 @@ extension Node {
         return children.count == 0
     }
 }
-
-//final class Test: Node {
-//    var children: [Test] = []
-//
-//    var parent: Test?
-//
-//    var flattened: [Test] {
-//        var children = [self]
-//        
-//        let nodes = children.flatMap { $0.flattened }
-//        children.append(contentsOf: nodes)
-//        
-//        return children
-//    }
-//}
-
