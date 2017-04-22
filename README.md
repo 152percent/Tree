@@ -1,6 +1,6 @@
 # Tree
 
-[![CI Status](http://img.shields.io/travis/Shaps Benkau/Tree.svg?style=flat)](https://travis-ci.org/Shaps Benkau/Tree)
+[![CI Status](http://img.shields.io/travis/shaps80/Tree.svg?style=flat)](https://travis-ci.org/shaps80/Tree)
 [![Version](https://img.shields.io/cocoapods/v/Tree.svg?style=flat)](http://cocoapods.org/pods/Tree)
 [![License](https://img.shields.io/cocoapods/l/Tree.svg?style=flat)](http://cocoapods.org/pods/Tree)
 [![Platform](https://img.shields.io/cocoapods/p/Tree.svg?style=flat)](http://cocoapods.org/pods/Tree)

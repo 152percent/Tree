@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2769E2930A28FE1A320927CF /* Pods_Tree_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C737425D48BA88C1F018ED69 /* Pods_Tree_Tests.framework */; };
+		5475D4BF1EAACC7900E205CB /* UIView+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D4BD1EAACC7900E205CB /* UIView+Query.swift */; };
+		5475D4C01EAACC7900E205CB /* UIViewController+Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475D4BE1EAACC7900E205CB /* UIViewController+Query.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -30,12 +31,15 @@
 /* Begin PBXFileReference section */
 		0C4D375198ADF9D1FBDC6EC3 /* Pods-Tree_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tree_Tests/Pods-Tree_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		12A2CBB0CBBB2B055AD8E767 /* Pods-Tree_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tree_Example/Pods-Tree_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		59CE03117F36BE8EF98C758C /* Tree.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Tree.podspec; path = ../Tree.podspec; sourceTree = "<group>"; };
+		5475D4B61EAAAD8500E205CB /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		5475D4B71EAAADA300E205CB /* UIKit+Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Node.swift"; sourceTree = "<group>"; };
+		5475D4BD1EAACC7900E205CB /* UIView+Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Query.swift"; sourceTree = "<group>"; };
+		5475D4BE1EAACC7900E205CB /* UIViewController+Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Query.swift"; sourceTree = "<group>"; };
+		59CE03117F36BE8EF98C758C /* Tree.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Tree.podspec; path = ../Tree.podspec; sourceTree = "<group>"; };
 		5F8A4F114F91E39113C1199A /* Pods_Tree_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tree_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* Tree_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tree_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -44,9 +48,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D78E34F2DB3CB4D9F2B3CFF /* Pods-Tree_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tree_Tests/Pods-Tree_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		87CEC3EF415C85B8C00D9CD7 /* Pods-Tree_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tree_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tree_Example/Pods-Tree_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B9D254BBA1E261D2239A05EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B9D254BBA1E261D2239A05EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C737425D48BA88C1F018ED69 /* Pods_Tree_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tree_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBBC6127A8212C22FF9FAD71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EBBC6127A8212C22FF9FAD71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,20 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5475D4B41EAAAC4B00E205CB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5475D4B61EAAAD8500E205CB /* Node.swift */,
+				5475D4B71EAAADA300E205CB /* UIKit+Node.swift */,
+			);
+			name = Classes;
+			path = ../Tree/Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				5475D4B41EAAAC4B00E205CB /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Tree */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -105,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				5475D4BD1EAACC7900E205CB /* UIView+Query.swift */,
+				5475D4BE1EAACC7900E205CB /* UIViewController+Query.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -215,10 +231,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V2CWYL9AN8;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = V2CWYL9AN8;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -361,8 +379,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				5475D4C01EAACC7900E205CB /* UIViewController+Query.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				5475D4BF1EAACC7900E205CB /* UIView+Query.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,12 +515,15 @@
 			baseConfigurationReference = 12A2CBB0CBBB2B055AD8E767 /* Pods-Tree_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				INFOPLIST_FILE = Tree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -510,12 +532,15 @@
 			baseConfigurationReference = 87CEC3EF415C85B8C00D9CD7 /* Pods-Tree_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				INFOPLIST_FILE = Tree/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -523,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C4D375198ADF9D1FBDC6EC3 /* Pods-Tree_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +558,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,11 +570,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D78E34F2DB3CB4D9F2B3CFF /* Pods-Tree_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = V2CWYL9AN8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

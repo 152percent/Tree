@@ -1,0 +1,6 @@
+framework module Tree {
+  umbrella header "Tree-umbrella.h"
+
+  export *
+  module * { export * }
+}

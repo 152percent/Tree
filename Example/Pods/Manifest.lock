@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - Tree (1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+  - Tree (from `../`)
+
+EXTERNAL SOURCES:
+  Tree:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Tree: 6aa9b4da278f54d00c377b0eb20a798468e6ae54
+
+PODFILE CHECKSUM: d326292a79a8c8f464a8921c7bd8d24616fc67ac
+
+COCOAPODS: 1.2.1
